@@ -1,0 +1,18 @@
+Sistema de Clínica Médica
+
+Atualmente, a clínica armazena todas as informações em uma única tabela
+chamada Atendimentos_Gerais.
+
+Problemas identificados: - Pacientes possuem vários telefones na mesma
+coluna - E-mails armazenados juntos em um único campo - Dados de
+endereço se repetem em cada atendimento - Informações de médicos
+misturadas com dados dos pacientes - Consultas e exames registrados na
+mesma tabela
+
+Exemplo: Paciente: João da Silva, CPF: 12345678900 Contatos:
+(11)9999-0000, (11)8888-0000 Email: joao@gmail.com, joao123@hotmail.com
+Médico: Dr. Carlos Exames: sangue, raio-x
+
+Objetivo: Aplicar a normalização de dados, utilizando a 1ª Forma Normal
+(1FN), criando um modelo organizado com tabelas separadas, garantindo
+integridade, eliminação de redundâncias e melhor manutenção do sistema.
